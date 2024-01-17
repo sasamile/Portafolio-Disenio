@@ -21,20 +21,20 @@ function Skills() {
         <CarouselPrevious className="text-black" />
         <CarouselContent className="w-[700px] gap-14 pl-4">
           <CarouselItem className="md:basis-1/2 lg:basis-1/3 max-md:flex max-sm:block">
-            <img src={skills} alt="" className="mb-4" />
-            <p className="max-md:flex max-md:text-3xl max-md:pl-6  max-md:w-[20%] max-md:items-center">Web Developmet</p>
+            <img src={skills} alt="" className="mb-4 max-md:w-[160px]" />
+            <p className="max-md:flex max-md:text-3xl   max-md:w-[20%] max-md:items-center">Web Developmet</p>
           </CarouselItem>
           <CarouselItem className="md:basis-1/2 lg:basis-1/3 max-md:flex max-sm:block">
-            <img src={skills} alt="" className="mb-4" />
-            <p className="max-md:flex max-md:text-3xl  max-md:pl-14 max-md:w-[20%] max-md:items-center">Brand Identify</p>
+            <img src={skills} alt="" className="mb-4 max-md:w-[160px] " />
+            <p className="max-md:flex max-md:text-3xl  max-md:pl-10 max-md:w-[20%] max-md:items-center">Brand Identify</p>
           </CarouselItem>
           <CarouselItem className="md:basis-1/2 lg:basis-1/3 max-md:flex max-sm:block">
-            <img src={skills} alt="" className="mb-4" />
-            <p className="max-md:flex max-md:text-3xl max-md:pl-14 max-md:w-[20%] max-md:items-center">Logo Design</p>
+            <img src={skills} alt="" className="mb-4 max-md:w-[160px]"  />
+            <p className="max-md:flex max-md:text-3xl max-md:pl-10 max-md:w-[20%] max-md:items-center">Logo Design</p>
           </CarouselItem>
           <CarouselItem className="md:basis-1/2 lg:basis-1/3 max-md:flex max-sm:block">
-            <img src={skills} alt="" className="mb-4" />
-            <p className="max-md:flex max-md:text-3xl max-md:pl-14 max-md:w-[20%] max-md:items-center">Chess</p>
+            <img src={skills} alt="" className="mb-4 max-md:w-[160px]" />
+            <p className="max-md:flex max-md:text-3xl max-md:pl-10 max-md:w-[20%] max-md:items-center">Chess</p>
           </CarouselItem>
         </CarouselContent>
         <CarouselNext className="text-black" />
