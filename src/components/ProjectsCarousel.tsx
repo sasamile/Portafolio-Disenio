@@ -2,10 +2,11 @@
 import { FaGithub } from 'react-icons/fa'
 
 interface ProjectProps{
-    number:number
+    
+    img:string
 }
 
-function ProjectsCarousel({number}:ProjectProps) {
+function ProjectsCarousel({img}:ProjectProps) {
   return (
     <div className="overflow-hidden  cursor-pointer rounded-xl relative group">
           <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute bg-black/90  inset-x-0 -bottom-2 pt-30 text-white flex items-end">
@@ -27,7 +28,7 @@ function ProjectsCarousel({number}:ProjectProps) {
               </div>
             </div>
           </div>
-          <img src={`/public/project-img${number}.png`} alt="" />
+          <img src={img} alt="" />
         </div>
   )
 }

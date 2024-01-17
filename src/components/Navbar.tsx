@@ -1,12 +1,13 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
+import Logo from "../../public/logo.svg"
 
 function Navbar() {
   return (
     <nav className="w-full left-0 top-0 ">
       <div className="flex justify-between w-[85%] mx-auto pt-12 max-lg:flex-col max-md:space-y-6 py-6">
         <div className="flex items-center max-lg:flex max-lg:justify-center max-lg:pb-6">
-          <img src="/public/logo.svg" alt="logo" width={140} height={50} />
+          <img src={Logo} alt="logo" width={140} height={50} />
         </div>
         <div className="flex items-center space-x-6 max-md:flex-col max-lg:justify-center max-lg:py-6">
           <div className="flex space-x-12 text-white/70 text-xl">

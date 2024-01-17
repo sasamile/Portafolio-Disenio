@@ -1,6 +1,7 @@
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { Button } from "./ui/button";
 import { Typewriter, Cursor } from "react-simple-typewriter";
+import header from "../../public/header-img.svg"
 
 function Header() {
   const text = Typewriter({
@@ -37,7 +38,7 @@ function Header() {
       </div>
       <div className="ml-40 mt-14">
         <img
-          src="/public/header-img.svg"
+          src={header}
           alt="baner"
           width={500}
           className="animate-bounce duration-4000"

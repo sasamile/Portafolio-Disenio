@@ -5,8 +5,10 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "./ui/carousel";
+} from "@/components/ui/carousel";
 import ProjectsCarousel from "./ProjectsCarousel";
+import img1 from "/public/project-img2.png";
+import img2 from "/public/project-img1.png";
 
 function Projects() {
   return (
@@ -44,7 +46,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          <img src="/public/project-img2.png" alt="" />
+          <img src={img2} alt="" />
         </div>
         {/**Proyecto 2 */}
         <div className="overflow-hidden  cursor-pointer rounded-xl relative group">
@@ -67,7 +69,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          <img src="/public/project-img1.png" alt="" />
+          <img src={img1} alt="" />
         </div>
         <div className="overflow-hidden cursor-pointer rounded-xl relative group">
           <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute bg-black/90  inset-x-0 -bottom-2 pt-30 text-white flex items-end">
@@ -89,7 +91,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          <img src="/public/project-img2.png" alt="" />
+          <img src={img2} alt="" />
         </div>
         <div className="overflow-hidden  cursor-pointer rounded-xl relative group">
           <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute bg-black/90  inset-x-0 -bottom-2 pt-30 text-white flex items-end">
@@ -111,7 +113,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          <img src="/public/project-img1.png" alt="" />
+          <img src={img1} alt="" />
         </div>
         <div className="overflow-hidden cursor-pointer rounded-xl relative group">
           <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute bg-black/90  inset-x-0 -bottom-2 pt-30 text-white flex items-end">
@@ -133,7 +135,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          <img src="/public/project-img2.png" alt="" />
+          <img src={img2} alt="" />
         </div>
         <div className="overflow-hidden  cursor-pointer rounded-xl relative group">
           <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute bg-black/90  inset-x-0 -bottom-2 pt-30 text-white flex items-end">
@@ -155,7 +157,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          <img src="/public/project-img1.png" alt="" />
+          <img src={img1} alt="" />
         </div>
       </div>
       <div>
@@ -163,22 +165,22 @@ function Projects() {
           <CarouselPrevious />
           <CarouselContent>
             <CarouselItem>
-              <ProjectsCarousel number={1}/>
+              <ProjectsCarousel img={img1} />
             </CarouselItem>
             <CarouselItem>
-            <ProjectsCarousel number={2}/>
+              <ProjectsCarousel img={img1} />
             </CarouselItem>
             <CarouselItem>
-            <ProjectsCarousel number={1}/>
+              <ProjectsCarousel img={img1} />
             </CarouselItem>
             <CarouselItem>
-            <ProjectsCarousel number={2}/>
+              <ProjectsCarousel img={img1} />
             </CarouselItem>
             <CarouselItem>
-            <ProjectsCarousel number={1}/>
+              <ProjectsCarousel img={img1} />
             </CarouselItem>
             <CarouselItem>
-            <ProjectsCarousel number={2}/>
+              <ProjectsCarousel img={img1} />
             </CarouselItem>
             <CarouselItem>
               <div className="overflow-hidden  cursor-pointer rounded-xl relative group">
