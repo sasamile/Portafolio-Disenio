@@ -4,10 +4,10 @@ import Gentl from "../../public/contact-img.svg"
 function GentInTouch() {
   return (
     <section>
-      <div className="mt-52 bg-gradient-to-l to-pink-600 from-blue-600 py-2">
+      <div className="mt-52 bg-gradient-to-l to-pink-600/40 from-blue-600/40 py-2">
         <div className="grid grid-cols-2 max-md:grid-cols-1 pt-12 pb-56">
           <div className="flex items-center mt-20">
-            <img src={Gentl} alt="contact" width={600}/>
+            <img src={Gentl} alt="contact" width={600} className="animate-bounce duration-6000 mt-20"/>
           </div>
           <div>
             <h1 className="text-white max-md:mt-12 max-md:text-center text-4xl font-bold py-6">

@@ -10,7 +10,7 @@ import skills from "/public/meter1.svg"
 
 function Skills() {
   return (
-    <section className="w-[80%] max-md:w-[95%] mx-auto bg-neutral-800 my-28 py-12 px-20  text-center text-white rounded-[50px] space-y-8">
+    <section className="w-[80%] max-md:w-[95%] mx-auto bg-neutral-800 my-28 py-12 px-20  text-center text-white rounded-[50px] space-y-8" id="Skills">
       <h1 className="font-bold text-4xl">Skills</h1>
       <p className="w-[70%] mx-auto">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum culpa

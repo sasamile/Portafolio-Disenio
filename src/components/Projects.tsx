@@ -12,7 +12,7 @@ import img2 from "/public/project-img1.png";
 
 function Projects() {
   return (
-    <section className="mt-56">
+    <section className="mt-56 " id="Projects">
       <div className="text-center text-white">
         <h1 className="text-4xl  font-bold">Projects</h1>
         <p className="w-[60%] mx-auto mt-4 max-md:w-[80%]">

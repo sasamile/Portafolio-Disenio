@@ -14,8 +14,8 @@ function Navbar() {
             <a href="#" className="font-bold text-white">
               Home
             </a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
           </div>
           <div className="max-md:hidden">
             <ul className="flex space-x-3 max-md:my-6">

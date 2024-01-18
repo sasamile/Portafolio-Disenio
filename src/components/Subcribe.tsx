@@ -3,9 +3,9 @@ import { Button } from "./ui/button";
 function Subcribe() {
   return (
     <section className="absolute">
-      <div className="w-[80%] mx-auto bg-white -mt-32 max-md:-mt-48 rounded-3xl grid grid-cols-3 max-md:grid-cols-2 gap-12 max-md:gap-0">
+      <div className="w-[80%] mx-auto bg-white -mt-32 max-md:-mt-38 rounded-3xl grid grid-cols-3 max-md:grid-cols-2 gap-12 max-md:gap-0">
         <div className="flex items-center ml-24  w-full py-12 max-md:pt-12 max-md:pb-0">
-          <p className="font-bold text-2xl ">Subscrite to our Newsletter & Never miss latest Updates</p>
+          <p className="font-bold text-2xl max-md:h-0 max-md:mb-20 max-md:text-center ">Subscrite to our Newsletter & Never miss latest Updates</p>
         </div>
         <div className="col-span-2" >
           <div className="flex justify-end max-md:justify-center items-center w-[60%] mx-auto max-md:w-[80%] ">
